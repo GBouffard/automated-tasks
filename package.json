@@ -1,0 +1,28 @@
+{
+  "name": "automated-tasks",
+  "version": "1.0.0",
+  "description": ":computer: Automated tasks :computer: ================= A little project to automate some tasks.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "webdriver": "webdriver-manager start",
+    "lateTrain": "node ./src/thamesLink-claim.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GBouffard/automated-tasks.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GBouffard/automated-tasks/issues"
+  },
+  "homepage": "https://github.com/GBouffard/automated-tasks#readme",
+  "devDependencies": {
+    "bower": "^1.8.2",
+    "protractor": "^5.2.0"
+  },
+  "dependencies": {
+    "hapi": "^16.6.2"
+  }
+}
